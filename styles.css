@@ -4,8 +4,12 @@
 
 .navbarTekst{
     color: #fff387;
-    font-size: 20px;
+    font-size: 22px;
     padding-top: 30px; /* ekstra padding for top ellers kom teksten helt op til kanten af siden, klamt */
+}
+
+.Cabincon{
+    font-family: "Cabin Condensed", sans-serif;
 }
 
 .informationspadding{
