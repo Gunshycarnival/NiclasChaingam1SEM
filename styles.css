@@ -2,6 +2,12 @@
     background-color: #000000;
 }
 
-.navbarTekstfarve{
-    color: yellow;
+.navbarTekst{
+    color: #fff387;
+    font-size: 20px;
+    padding-top: 30px; /* ekstra padding for top ellers kom teksten helt op til kanten af siden, klamt */
+}
+
+.informationspadding{
+    padding-left: 10px;
 }
