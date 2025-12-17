@@ -1,5 +1,11 @@
-.navbarfarve{
+.farveSort{
     background-color: #000000;
+}
+.farveHvid{
+    color: #ffffff;
+}
+.farveZealand{
+    background-color: #fff387;
 }
 
 .navbarTekst{
@@ -8,10 +14,23 @@
     padding-top: 30px; /* ekstra padding for top ellers kom teksten helt op til kanten af siden, klamt */
 }
 
-.Cabincon{
+.cabinCon{
     font-family: "Cabin Condensed", sans-serif;
 }
+
+
 
 .informationspadding{
     padding-left: 10px;
 }
+
+.forsideTextpadding{
+    padding-top: 100px;
+}
+
+.footerLinje{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #ffffff /* got this shit from this guy https://stackoverflow.com/a/30065540 */
+}
+
