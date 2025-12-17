@@ -19,15 +19,15 @@
 </head>
 
 <body>
-
+<!-- navbar self -->
 <header>
-    <nav class="navbar navbarfarve">
+    <nav class="navbar farveSort">
         <div class="container-fluid ">
-            <section class="d-flex Cabincon">
+            <section class="d-flex flex-grow-1 cabinCon">
                 <a class="d-flex me-lg-5" href="index.html">
-                 <img src="images/LogoGul.png" alt="Logo Connected Starters" width="140" height="auto">
-                 </a>
-                 <a class="navbarTekst me-lg-5 text-center" href="VoresSam.html">Vores Sammearbejdspartnere</a>
+                    <img src="images/LogoGul.png" alt="Logo Connected Starters" width="140" height="auto">
+                </a>
+                <a class="navbarTekst ms-auto me-lg-5 text-center" href="VoresSam.html">Vores Sammearbejdspartnere</a>
                 <a class="navbarTekst me-lg-5 text-center informationspadding" href="InfoTild.html">Information / Tildmeldning</a> <!-- manual padding via informationspaddding class, ellers viille "Vores Sammearbejdspartnere" og "Information / Tildmeldning" komme alt for tæt på hinanden når jeg skulle teste respons -->
             </section>
         </div>
@@ -42,16 +42,17 @@
 
 
 
-<footer class="Cabincon d-flex justify-content-between"> <!-- justify content between så de to coloumns er på hver af deres sider -->
-  <div class="d-flex align-items-start flex-column "> <!-- flexcolumn så de står på række u know, ned ad hinanden -->
-      <h3>Vejen 1</h3>
-      <h3> 1234 kommune</h3>
-  </div>
+<!-- i mean, dens tag siger sig selv, det er footer -->
+<footer class="cabinCon d-flex justify-content-between farveSort"> <!-- justify content between så de to coloumns er på hver af deres sider -->
+    <div class="d-flex align-items-start flex-column farveHvid "> <!-- flexcolumn så de står på række u know, ned ad hinanden -->
+        <h3>Vejen 1</h3>
+        <h3> 1234 kommune</h3>
+    </div>
 
-  <div class="d-flex align-items-end flex-column">
-      <h3>+4512345678</h3>
-      <h3>Connectedstarters@CS.dk</h3>
-  </div>
+    <div class="d-flex align-items-end flex-column farveHvid">
+        <h3>+4512345678</h3>
+        <h3>Connectedstarters@CS.dk</h3>
+    </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
