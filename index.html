@@ -26,63 +26,72 @@
         <div class="container-fluid ">
             <section class="d-flex flex-grow-1 cabinCon">
                 <a class="d-flex me-lg-5" href="index.html">
-                 <img src="images/LogoGul.png" alt="Logo Connected Starters" width="140" height="auto">
+                 <img src="images/LogoGul.png" alt="Logo Connected Starters" width="110" height="auto">
                  </a>
                  <a class="navbarTekst ms-auto me-lg-5 text-center" href="VoresSam.html">Vores Sammearbejdspartnere</a>
                 <a class="navbarTekst me-lg-5 text-center informationspadding" href="InfoTild.html">Information / Tildmeldning</a> <!-- manual padding via informationspaddding class, ellers viille "Vores Sammearbejdspartnere" og "Information / Tildmeldning" komme alt for tæt på hinanden når jeg skulle teste respons -->
+                <a class="navbarTekst me-lg-5 text-center informationspadding" href="Omos.html">Om os</a>
             </section>
         </div>
     </nav>
 </header>
 
+<!-- Forside -->
+<div class="farveZealand d-flex flex-column flex-md-row">
+    <img src="images/Forside.jpg" class="img-fluid w-100 w-md-50" alt="Connected Starters Presentation image">
 
-<!-- forside billede og den gule boks til venstre for billedet -->
-<div class="farveZealand d-flex ">
-    <img src="images/Forside.jpg" width="50%" alt="Connected Starters Presentation image">
-    <section class="cabinCon text-center w-50"> <!-- w-50 = skubber teksten 50% over i midten af den gule boks -->
+    <section class="cabinCon text-center w-100 w-md-50 d-flex flex-column justify-content-center p-4">
         <h1 class="forsideTextpadding">Velkommen til Connected Starters!</h1>
-        <h2 class="forsideTextpadding">Et iværksættermiljø for unge, der vil skabe noget selv!</h2>
+        <h2 class="forsideTextpadding">
+            Et iværksættermiljø for unge, der vil skabe noget selv!
+        </h2>
     </section>
 </div>
 
-<!-- den gule boks hvor der står "kommende eksperter" ofc -->
-<div class="farveSort p-5">
-    <div class="farveZealand cabinCon text-center p-5  mx-auto" style="max-width: 800px;">
-        <h2 class="mb-0">Kommende Experter</h2>
+<!-- Kommende eksperter box tingen -->
+<div class="farveSort py-5">
+    <div class="farveZealand cabinCon text-center py-4 mx-auto w-75">
+        <h2 class="mb-0">Kommende Eksperter</h2>
     </div>
 </div>
 
+<!-- Cards -->
+<section class="farveSort py-5">
+    <div class="container">
+        <div class="row justify-content-center g-4">
 
+            <div class="col-12 col-md-4">
+                <div class="card farveZealand h-100 text-center">
+                    <img src="images/Piajensen.jpg" class="card-img-top" alt="Ekspert Pia Jensen">
+                    <div class="card-body cabinCon">
+                        <h3>Mød Pia Jensen</h3>
+                        <p>Stifter af VividDame</p>
+                        <p>Ekspert indenfor mode</p>
+                    </div>
+                </div>
+            </div>
 
-<!-- alle cards -->
-<section class="d-flex align-items-center justify-content-around farveSort">
-    <div class="card farveZealand" style="width: 18rem;">
-        <img src="images/Piajensen.jpg" class="card-img-top" alt="Ekspert Pia Jensen">
-        <div class="card-body cabinCon text-center">
-            <h2 class="card-text">Mød Pia Jensen</h2>
-            <h5 class="card-text"> - Stifter af VividDame</h5>
-            <h5 class="card-text"> - Ekspert indenfor mode </h5>
-        </div>
-    </div>
+            <div class="col-12 col-md-4">
+                <div class="card farveZealand h-100 text-center">
+                    <img src="images/Larslarsen.jpg" class="card-img-top" alt="Ekspert Lars Larsen">
+                    <div class="card-body cabinCon">
+                        <h3>Mød Lars Larsen</h3>
+                        <p>Stiftede sit første firma som 18-årig</p>
+                        <p>Verdenskendt iværksætter</p>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-12 col-md-4">
+                <div class="card farveZealand h-100 text-center">
+                    <img src="images/Sarahenrik.jpg" class="card-img-top" alt="Ekspert Sara Henriksen">
+                    <div class="card-body cabinCon">
+                        <h3>Mød Sara Henriksen</h3>
+                        <p>Har grundlagt over 21 virksomheder</p>
+                    </div>
+                </div>
+            </div>
 
-
-    <div class="card farveZealand" style="width: 18rem;">
-        <img src="images/Larslarsen.jpg" class="card-img-top" alt="Ekspert Lars Larsen">
-        <div class="card-body cabinCon text-center">
-            <h2 class="card-text">Mød Lars Larsen</h2>
-            <h5 class="card-text"> - Stiftede sit første firma som 18 årig!</h5>
-            <h5 class="card-text"> - Verdenskendt iværksætter </h5>
-        </div>
-    </div>
-
-
-
-    <div class="card farveZealand" style="width: 18rem;">
-        <img src="images/Sarahenrik.jpg" class="card-img-top" alt="Ekspert Sara Henriksen">
-        <div class="card-body cabinCon text-center">
-            <h2 class="card-text">Mød Sara Henriksen</h2>
-            <h5 class="card-text"> - Har grundlagt over 21 virksomhedder</h5>
         </div>
     </div>
 </section>
