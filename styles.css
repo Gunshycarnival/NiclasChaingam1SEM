@@ -54,3 +54,13 @@
     text-align: left;
 }
 
+.forsideogom-img {
+    max-height: 500px;       /* Stopper billedet fra at blive gigantisk */
+    object-fit: cover;       /* Beskærer pænt */
+}
+
+@media (min-width: 768px) {
+    .forsideogom-img {
+        height: 100vh;
+    }
+}
