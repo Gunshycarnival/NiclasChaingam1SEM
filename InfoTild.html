@@ -127,7 +127,33 @@
 
 </div>
 
-
+<!-- tilmeldningsboks basically -->
+<div class="container my-5">
+    <div class="card shadow-sm p-4">
+        <h3 class="card-title mb-3">Tilmeld dig næste event</h3>
+        <p class="card-text">Indtast dine oplysninger nedenfor for at tilmelde dig til kommende events og expertbesøg.</p>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Navn</label>
+                <input type="text" class="form-control" id="name" placeholder="Dit navn" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="din@email.dk" required>
+            </div>
+            <div class="mb-3">
+                <label for="event" class="form-label">Vælg event</label>
+                <select class="form-select" id="event">
+                    <option selected>Vælg et event...</option>
+                    <option value="1">Pia Jensen 28 OKT</option>
+                    <option value="2">Åben rådgivning 11 MARTS</option>
+                    <option value="3">Opstartshjælp 22 JAN</option>
+                </select>
+            </div>
+            <button type="submit" class="farveZealand">Tilmeld</button>
+        </form>
+    </div>
+</div>
 
 
 
